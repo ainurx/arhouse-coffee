@@ -1,0 +1,49 @@
+@import './color';
+
+// BACKGROUND
+.bg-primary{ background-color: $primary;}
+.bg-secondary{ background-color: $secondary;}
+.bg-tersier{ background-color: $tersier;}
+.bg-black{ background-color: $black; }
+.bg-white{ background-color: $white; }
+
+// COLOR
+.c-white{ color: $white;}
+.c-black{ color: $black;}
+
+// POSITION
+.p-relative{ position: relative; }
+.p-absolute{ position: absolute; }
+.pt-0{ top: 0; }
+.pb-0{ bottom: 0; }
+.pl-0{ left: 0; }
+.pr-0{ right: 0; }
+
+// MARGIN & PADDING
+.mx-3{ margin-left: 6px !important; margin-right: 6px !important; }
+.my-3{ margin-top: 6px !important; margin-bottom: 6px !important; }
+
+.px-3{ padding-left: 6px !important; padding-right: 6px !important;}
+.py-3{ padding-top: 6px !important; padding-bottom: 6px !important;}
+
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content-x{
+  display: flex;
+  justify-content: center;
+}
+
+.center-content-y{
+  display: flex;
+  align-items: center;
+}
+
+// SHAPE
+.rounded-side{ border-radius: 1em;}
+.circle-item{ border-radius: 50%; }
+
+
