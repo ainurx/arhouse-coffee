@@ -10,9 +10,12 @@ const AboutSection = () => {
         <Button variant='contained'
           sx={{ backgroundColor: '#573313'}}>Selengkapnya</Button>
       </Container>
-      <img src={require('../assets/logo01.png')} style={{ width: '112px' }}/>
-      <img src={require('../assets/logo02.png')} style={{ width: '112px' }}/>
-      <img src={require('../assets/logo03.png')} style={{ width: '112px' }}/>
+      <img src={require('../assets/logo01.png')} 
+        style={{ width: '112px' }}/>
+      <img src={require('../assets/logo02.png')} 
+        style={{ width: '112px' }}/>
+      <img src={require('../assets/logo03.png')} 
+        style={{ width: '112px' }}/>
     </div>
   )
 } 
