@@ -20,6 +20,9 @@ const Footer = () => {
             sx={{ color: 'white'}}>Jl. Pelita Raya 23, Balla Parang, Kec. Rappocini, Kota Makassar, Sulawesi Selatan 90231</Typography>
           <Typography variant='body2' 
             sx={{ color: 'white' }}>Buka setiap hari 10.00 - 22.00</Typography>
+          <hr/>
+          <Typography variant='body2'
+            sx={{ color: 'white' }}>Kontak Kami : +6287237287121</Typography>
         </div>
       </div>
 
