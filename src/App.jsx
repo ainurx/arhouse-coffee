@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 function App() {
   
   return (
-    <div>
+    <div className='bgc-white'>
       <Navbar />
       <Banner />
       <AboutSection />

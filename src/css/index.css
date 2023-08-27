@@ -1,3 +1,92 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat&display=swap');
+
 body{
   margin: 0;
+}
+
+.shadow-none{
+  box-shadow: none !important;
+}
+
+.font-primary{
+  font-family: 'Cinzel', serif !important;
+}
+
+.font-secondary{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-bold{
+  font-weight: bold !important;
+}
+
+/* BACKGROUND COLOR */
+.bgc-primary{
+  background-color: #573313 !important;
+}
+
+.bgc-black{
+  background-color: #121212 !important;
+}
+
+.bgc-white{
+  background-color: #F8F8F8;
+}
+
+/* COLOR */
+.c-tersier{
+  color: #FFB26E !important;
+}
+
+.c-white{
+  color: #F8F8F8 !important;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/* POSITION */
+.pos-relative{
+  position: relative;
+}
+
+.pos-absolute{
+  position:absolute;
+}
+
+/* MARGIn */
+.mx-4{
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
+
+.mt-8{
+  margin-top: 8px !important;
+}
+
+/* PADDING */
+.py-24{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.pd-18-0{
+  padding: 18px 0;
+}
+
+/* BORDER */
+.br-none{
+  border-radius: 0 !important;
+}
+
+/* LINE */
+.line{
+  align-items: center;
+  display: flex;
+  height: 0;
+  width: 24px;
+  border: 1px solid #FFB26E;
 }

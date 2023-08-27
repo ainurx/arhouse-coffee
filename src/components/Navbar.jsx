@@ -7,21 +7,30 @@ const Navbar = () =>{
     <AppBar
       position='relative'
       color='transparent' 
-      sx={{ backgroundColor: '#121212', boxShadow: 'none' }}>
+      className='shadow-none bgc-black'>
       <Container>
-        <div style={{ display: 'flex', padding: '18px 0'}}>
-          <img src={require('../assets/arhouse-white-logo.png')} 
+        <div className='d-flex pd-18-0'>
+          <img 
+            src={require('../assets/arhouse-white-logo.png')} 
             alt="arhouse-coffee" />
+          <Box sx={{ flexGrow: 1, display: { xs: 'block', md: 'none'}, position : 'relative'}}
+            justifyContent='end'>
+            <div style={{ border: '2px solid white', position: 'absolute', width: '35px', top: 0 , right: 0}}></div>
+            <div style={{ border: '2px solid white', position: 'absolute', width: '25px', top: '50%', right: 0}}></div>
+            <div style={{ border: '2px solid white', position: 'absolute', width: '10px', bottom: 0, right: 0}}></div>
+          </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'} }} 
             justifyContent='center'>
-            <Button sx={{ color: '#FFB26E'}}>Beranda</Button>
-            <Button sx={{ color: 'white'}}>Fasilitas</Button>
-            <Button sx={{ color: 'white'}}>Menu</Button>
-            <Button sx={{ color: 'white'}}>Lokasi</Button>
+            <Button className='c-tersier font-primary'>Beranda</Button>
+            <Button className='c-white font-primary'>Fasilitas</Button>
+            <Button className='c-white font-primary'>Menu</Button>
+            <Button className='c-white font-primary'>Lokasi</Button>
           </Box>
-          <Box>
-            <Button variant='contained'
-              sx={{ backgroundColor: '#573313'}}>Hubungi Kami</Button>
+          <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+            <Button 
+              variant='contained'
+              className='bgc-primary br-none font-primary'
+            >Hubungi Kami</Button>
           </Box>
         </div>
       </Container>
