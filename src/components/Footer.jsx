@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <>
+    <div className='mt-36'>
       <div style={{ position: 'relative'}}>
         <img src={require('../assets/banner3.png')} 
           style={{ width: '100%' }}/>
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
 
-    </>
+    </div>
   )
 }
 

@@ -22,6 +22,11 @@ body{
   font-weight: bold !important;
 }
 
+/* ALIGN */
+.align-center{
+  align-items: center;
+}
+
 /* BACKGROUND COLOR */
 .bgc-primary{
   background-color: #573313 !important;
@@ -35,7 +40,20 @@ body{
   background-color: #F8F8F8;
 }
 
+/* BORDER */
+.border-cream{
+  border: 1px solid #FFB26E;
+}
+
+.border-green{
+  border: 1px solid #013020;
+}
+
 /* COLOR */
+.c-primary{
+  color: #573313;
+}
+
 .c-tersier{
   color: #FFB26E !important;
 }
@@ -44,8 +62,22 @@ body{
   color: #F8F8F8 !important;
 }
 
+.c-green{
+  color: #013020 !important;
+}
+
+.c-gray{
+  color: #6C6C6C !important;
+}
+
+/* DISPLAY */
 .d-flex{
   display: flex;
+}
+
+/* GAP */
+.gap-14{
+  gap: 14px
 }
 
 /* POSITION */
@@ -57,7 +89,7 @@ body{
   position:absolute;
 }
 
-/* MARGIn */
+/* MARGIN*/
 .mx-4{
   margin-left: 4px !important;
   margin-right: 4px !important;
@@ -67,10 +99,22 @@ body{
   margin-top: 8px !important;
 }
 
+.mt-24{
+  margin-top: 24px;
+}
+
+.mt-36{
+  margin-top: 36px;
+}
+
 /* PADDING */
 .py-24{
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.pd-4-12{
+  padding: 4px 12px;
 }
 
 .pd-18-0{
@@ -88,5 +132,4 @@ body{
   display: flex;
   height: 0;
   width: 24px;
-  border: 1px solid #FFB26E;
 }
