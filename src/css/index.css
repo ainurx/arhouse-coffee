@@ -89,6 +89,10 @@ body{
   gap: 14px
 }
 
+.gap-64{
+  gap: 64px;
+}
+
 /* POSITION */
 .pos-relative{
   position: relative;
@@ -143,6 +147,10 @@ body{
   padding: 48px 40px;
 }
 
+.pl-0{
+  padding-left: 0 !important;
+}
+
 /* BORDER */
 .br-none{
   border-radius: 0 !important;
@@ -160,5 +168,5 @@ body{
 .main-footer{
   margin-top: 64px;
   width: 100%;
-  border-top: 1px solid gray;
+  border-top: 1px solid rgba(108, 108, 108, 0.20);
 }

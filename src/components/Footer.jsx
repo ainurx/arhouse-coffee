@@ -1,5 +1,6 @@
-import { Container, Typography } from '@mui/material'
 import React from 'react'
+
+import { Container, Typography, List, ListItem } from '@mui/material'
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
             sx={{ color: 'white' }}>Buka setiap hari 10.00 - 22.00</Typography>
           <hr className='my-8'/>
           <Typography variant='body2'
-            sx={{ color: 'white' }}>Kontak Kami : +6287237287121</Typography>
+            sx={{ color: 'white' }}>Kontak Kami : +62 852 5644 3534</Typography>
         </div>
       </div>
 
@@ -41,24 +42,102 @@ const Footer = () => {
               >Copyright ⓒ 2020 - 2021 First Boulevard, all rights reserved.</Typography>
             </div>
 
-            <div className='d-flex justify-spc-around'>
+            <div className='d-flex justify-spc-around gap-64'>
               <div>
                 <Typography 
                   variant='h6'
                   className='font-primary font-bold'
                 >TENTANG KAMI</Typography>
+                <List>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Sejarah</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Lokasi</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Galeri</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Layanan</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Fasilitas</Typography >
+                  </ListItem>
+                </List>
               </div>
               <div>
                 <Typography 
                   variant='h6'
                   className='font-primary font-bold'
                 >MENU</Typography>
+                <List>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Latte</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Americano</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Cappucino</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary c-primary font-bold'
+                    >Lainnya</Typography >
+                  </ListItem>
+                </List>
               </div>
               <div>
                 <Typography 
                   variant='h6'
                   className='font-primary font-bold'
                 >MEDIA</Typography>
+                <List>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Privacy Policy</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Development</Typography >
+                  </ListItem>
+                  <ListItem className='pl-0'>
+                    <Typography 
+                      variant='body2'
+                      className='font-secondary'
+                    >Terms & Conditions</Typography >
+                  </ListItem>
+                </List>
               </div>
             </div>
           </div>
