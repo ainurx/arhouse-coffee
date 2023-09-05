@@ -9,7 +9,10 @@ const AboutSection = () => {
         width: '72%'
       }}>
       <Container maxWidth='xl'>
-        <Typography variant='h5' className='font-primary font-bold'>The Sage (Sang Maha Bijaksana)</Typography>
+        <Typography 
+          variant='h5' 
+          className='font-primary font-bold'
+        >The Sage (Sang Maha Bijaksana)</Typography>
         <Typography 
           variant='body1' 
           className='font-secondary mt-8'

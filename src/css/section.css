@@ -1,0 +1,24 @@
+/* BANNER */
+.banner-wrapper{
+  background-color: #121212;
+  height: max-content;
+}
+
+.banner-container{
+  width: 60%;
+}
+
+.banner-image{
+  position: absolute;
+  right: 36px;
+  bottom: -150px;
+  width: 400px;
+  aspect-ratio: 1;
+}
+
+/* FOOTER */
+.main-footer{
+  margin-top: 64px;
+  width: 100%;
+  border-top: 1px solid rgba(108, 108, 108, 0.20);
+}

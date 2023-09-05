@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat&display=swap');
 
+@import 'section.css';
+@import 'responsive.css';
+
 body{
   margin: 0;
 }
@@ -71,6 +74,10 @@ body{
   color: #F8F8F8 !important;
 }
 
+.c-secondary-white{
+  color: #FFF;
+}
+
 .c-green{
   color: #013020 !important;
 }
@@ -126,6 +133,10 @@ body{
 }
 
 /* PADDING */
+.pd-12{
+  padding: 12px;
+}
+
 .pd-24{
   padding: 24px;
 }
@@ -162,11 +173,4 @@ body{
   display: flex;
   height: 0;
   width: 24px;
-}
-
-/* FOOTER */
-.main-footer{
-  margin-top: 64px;
-  width: 100%;
-  border-top: 1px solid rgba(108, 108, 108, 0.20);
 }
