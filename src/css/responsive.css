@@ -46,4 +46,11 @@
     aspect-ratio: 1;
     object-fit: cover;
   }
+
+  /* FOOTER */
+  .address-footer{
+    bottom: -100px;
+    margin: auto;
+    left: 24px;
+  }
 }

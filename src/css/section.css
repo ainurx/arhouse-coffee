@@ -29,6 +29,13 @@
 }
 
 /* FOOTER */
+.address-footer{
+  position: absolute;
+  right: 24px;
+  bottom: -15px;
+  background-color: #013020;
+}
+
 .main-footer{
   margin-top: 64px;
   width: 100%;

@@ -9,12 +9,12 @@ const Footer = () => {
         <img src={require('../assets/banner3.png')} 
           style={{ width: '100%' }}/>
         <div
-          className='pd-24'
+          className='pd-24 address-footer'
           style={{
-            position: 'absolute',
-            right: '24px',
-            bottom: -15,
-            backgroundColor: '#013020'
+            // position: 'absolute',
+            // right: '24px',
+            // bottom: -15,
+            // backgroundColor: '#013020'
           }}
         >
           <Typography variant='body2' 
