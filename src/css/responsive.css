@@ -1,4 +1,8 @@
 @media only screen and (max-width: 425px){
+  .d-flex-m-block{
+    display: block !important;
+  }
+  /* BANNER */
   .banner-wrapper{
     padding-bottom: 160px;
   }
@@ -19,5 +23,27 @@
   .banner-image{
     right: auto !important;
     bottom: -400px!important;
+  }
+
+  /* ABOUT */
+  .about-wrapper{
+    margin-top: 240px;
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .about-wrapper h5{
+    font-size: 22px;
+  }
+
+  /* MENU */
+  .img-wrapper{
+    margin-top: 8px;
+  }
+
+  .menu-img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
   }
 }

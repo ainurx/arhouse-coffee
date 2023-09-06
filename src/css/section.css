@@ -16,6 +16,18 @@
   aspect-ratio: 1;
 }
 
+/* ABOUT */
+
+.about-img{ 
+  width: 160px;
+  aspect-ratio: 1;
+}
+
+/* MENU */
+.menu-img{
+  width: 200px;
+}
+
 /* FOOTER */
 .main-footer{
   margin-top: 64px;

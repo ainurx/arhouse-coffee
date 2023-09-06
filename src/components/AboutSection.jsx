@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutSection = () => {
   return(
-    <div className='py-24 pos-relative d-flex'
+    <div className='about-wrapper py-24 pos-relative d-flex'
       style={{
         zIndex: 1, 
         width: '72%'
@@ -21,12 +21,15 @@ const AboutSection = () => {
           variant='contained'
           className='bgc-primary br-none font-primary font-bold mt-8'>Selengkapnya</Button>
       </Container>
-      <img src={require('../assets/logo01.png')} 
-        style={{ width: '160px', aspectRatio: '1' }}/>
-      <img src={require('../assets/logo02.png')} 
-        style={{ width: '160px', aspectRatio: '1', marginLeft: '-50px' }}/>
-      <img src={require('../assets/logo03.png')} 
-        style={{ width: '160px', aspectRatio: '1', marginLeft: '-50px' }}/>
+      <img 
+        src={require('../assets/logo01.png')} 
+        className='about-img'/>
+      <img 
+        src={require('../assets/logo02.png')} 
+        className='about-img ml-min50'/>
+      <img 
+        src={require('../assets/logo03.png')} 
+        className='about-img ml-min50'/>
     </div>
   )
 } 

@@ -91,6 +91,10 @@ body{
   display: flex;
 }
 
+.d-flex-m-block{
+  display: flex;
+}
+
 /* GAP */
 .gap-14{
   gap: 14px
@@ -130,6 +134,10 @@ body{
 
 .mt-36{
   margin-top: 36px;
+}
+
+.ml-min50{
+  margin-left: -50px;
 }
 
 /* PADDING */

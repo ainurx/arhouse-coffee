@@ -5,7 +5,7 @@ const MenuSection = () =>{
   return (
     <div>
       <Container maxWidth='xl'>
-        <div style={{ display: 'flex' }}>
+        <div className='d-flex-m-block'>
           <img src={require('../assets/banner2.png')} 
             style={{ aspectRatio: 1, width: '400px' }} />
           <div className='d-flex align-center'>
@@ -61,7 +61,7 @@ const MenuSection = () =>{
             </div>
           </div>
         </div>
-        <div style={{ display: 'flex' }}>
+        <div className='d-flex-m-block'>
           <div className='d-flex align-center'>
             <div>
               <div className='d-flex align-center'>
@@ -86,36 +86,33 @@ const MenuSection = () =>{
               >Selengkapnya</Button>
             </div>
           </div>
-          <div className='d-flex gap-14'>
-            <div className='pos-relative'>
+          <div className='d-flex-m-block gap-14'>
+            <div className='pos-relative img-wrapper'>
               <Typography 
                 variant='body2'
                 className='pos-absolute bgc-white font-primary font-bold c-primary pd-4-12' 
               >Latte</Typography>
-              <img src={require('../assets/menu1.png')} 
-                style={{
-                  width: '200px'
-                }}/>
+              <img 
+                src={require('../assets/menu1.png')} 
+                className='menu-img'/>
             </div>
-            <div className='pos-relative'>
+            <div className='pos-relative img-wrapper'>
               <Typography 
                 variant='body2'
                 className='pos-absolute bgc-white font-primary font-bold c-primary pd-4-12' 
               >Americano</Typography>
-              <img src={require('../assets/menu2.png')} 
-                style={{
-                  width: '200px'
-                }}/>
+              <img 
+                src={require('../assets/menu2.png')} 
+                className='menu-img'/>
             </div>
-            <div className='pos-relative'>
+            <div className='pos-relative img-wrapper'>
               <Typography 
                 variant='body2'
                 className='pos-absolute bgc-white font-primary font-bold c-primary pd-4-12' 
               >Cappucino</Typography>
-              <img src={require('../assets/menu3.png')} 
-                style={{
-                  width: '200px'
-                }}/>
+              <img 
+                src={require('../assets/menu3.png')} 
+                className='menu-img'/>
             </div>
           </div>
         </div>
