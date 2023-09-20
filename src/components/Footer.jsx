@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='mt-36'>
       <div style={{ position: 'relative'}}>
         <img src={require('../assets/banner3.png')} 
-          style={{ width: '100%' }}/>
+          className='footer-main-img'/>
         <div
           className='pd-24 address-footer'
           style={{
@@ -29,20 +29,12 @@ const Footer = () => {
 
       <div className='main-footer'>
         <Container maxWidth='xl'>
-          <div className='pd-48-40 d-flex justify-spc-between'>
+          <div className='pd-48-40 d-flex-m-block justify-spc-between pos-relative'>
             <div>
               <img src={require('../assets/arhouse-colored-logo.png')} />
-              <Typography 
-                variant='h6' 
-                className='font-primary font-bold'
-              >Arhouse Coffee, join us</Typography>
-              <Typography
-                variant='body2'
-                className='font-secondary'
-              >Copyright ⓒ 2020 - 2021 First Boulevard, all rights reserved.</Typography>
             </div>
 
-            <div className='d-flex justify-spc-around gap-64'>
+            <div className='d-flex-m-block justify-spc-around gap-64'>
               <div>
                 <Typography 
                   variant='h6'
@@ -139,6 +131,17 @@ const Footer = () => {
                   </ListItem>
                 </List>
               </div>
+            </div>
+
+            <div className='footer-main-text'>
+              <Typography 
+                variant='h6' 
+                className='font-primary font-bold'
+              >Arhouse Coffee, join us</Typography>
+              <Typography
+                variant='body2'
+                className='font-secondary'
+              >Copyright ⓒ 2020 - 2021 First Boulevard, all rights reserved.</Typography>
             </div>
           </div>
         </Container>

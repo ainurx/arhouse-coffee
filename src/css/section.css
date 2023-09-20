@@ -29,6 +29,10 @@
 }
 
 /* FOOTER */
+.footer-main-img{
+  width: 100%;
+}
+
 .address-footer{
   position: absolute;
   right: 24px;
@@ -40,4 +44,10 @@
   margin-top: 64px;
   width: 100%;
   border-top: 1px solid rgba(108, 108, 108, 0.20);
+}
+
+.footer-main-text{
+  left: 40px;
+  bottom: 48px;
+  position: absolute;
 }
